@@ -89,7 +89,7 @@ a {
   padding-right: 15px;
 }
 
-.navbar {
+.nav {
   display: flex;
   align-items: center;
 }
@@ -106,7 +106,7 @@ a {
   align-items: center;
 }
 
-.logo-color {
+.logo__dark {
   color: #000000;
 }
 
@@ -164,7 +164,8 @@ a {
 }
 
 .header-nav-link:hover::after,
-.header-nav-link:focus::after {
+.header-nav-link:focus::after,
+.header-nav-link.current::after {
   transform: scaleX(1);
 }
 
@@ -566,6 +567,7 @@ a .team-icon {
   width: 22px;
   height: 22px;
   fill: #afb1b8;
+  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .team-icon:hover {
   fill: var(--accent-color);
@@ -630,7 +632,7 @@ a .team-icon {
   color: #afb1b8;
   border: 1px solid #afb1b8;
   border-radius: 4px;
-  transition: border-color 150ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .customers-link:hover {
   border-color: var(--accent-color);
