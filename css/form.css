@@ -192,11 +192,11 @@
   color: #2196f3;
 }
 
-.register-check:checked + .register-aggreamen-icon > .icon-uncheck {
+.register-check-box:checked + .register-agreamen-icon > .icon-uncheck {
   opacity: 0;
 }
 
-.register-check:checked + .register-aggreamen-icon > .icon-check {
+.register-check-box:checked + .register-agreamen-icon > .icon-check {
   opacity: 1;
 }
 
