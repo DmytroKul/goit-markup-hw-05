@@ -10,6 +10,7 @@
 .backdrop.is-hidden {
   opacity: 0;
   pointer-events: none;
+  visibility: hidden;
 }
 .modal {
   position: absolute;
@@ -173,7 +174,7 @@
 .register-aggreemet-text {
   font-weight: 400;
   font-size: 14px;
-  line-height: 24px;
+  line-height: 1.5;
 
   letter-spacing: 0.03em;
 
@@ -183,7 +184,7 @@
 .register-aggreemet-link {
   font-weight: 400;
   font-size: 14px;
-  line-height: 24px;
+  line-height: 1.5;
 
   letter-spacing: 0.03em;
   text-decoration-line: underline;
